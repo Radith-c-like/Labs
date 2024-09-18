@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\code\C++\lab_02\task_01\main.cpp(1,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\code\C++\lab_02\task_01\main.cpp(2,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\code\C++\lab_02\task_01\main.cpp(3,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  task_01.vcxproj -> C:\code\C++\lab_02\x64\Debug\task_01.exe
