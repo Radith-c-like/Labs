@@ -18,9 +18,11 @@ int main() {
                                     "Обезьяна", "Курица", "Собака", "Свинья"}; 
   const int startYear = 2031;
   int year;
+  cout << "введите год: ";
   cin >> year;
   
   year -= startYear;
+  cout << "этот год назван в честь: ";
 
   if (year > 0) {
     year %= 60;
