@@ -36,13 +36,15 @@ int* solve(int day, int month, int year) {
       day = lenghtOfMonth[month];
     }
   }
-  cout << day << '\t' << month << '\t' << year << '\n';
+  cout << "вчера было: " << day << ' ' << month << ' ' << year;
   return 0;
 }
 
 
 int main() {
+  setlocale(LC_ALL, "rus");
   int day, month, year;
+  cout << "введите дату в формате DD MM YYYY: ";
   cin >> day >> month >> year;
   day -= 1;
   solve(day, month, year);
